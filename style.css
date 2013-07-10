@@ -23,4 +23,12 @@ img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
-}:
+}
+
+#principal {
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  padding-bottom: 50px;
+}
