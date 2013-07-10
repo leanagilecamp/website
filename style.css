@@ -20,6 +20,13 @@ img.bg {
   -moz-opacity:0.1;
 }
 
+img.logo {
+  size: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
