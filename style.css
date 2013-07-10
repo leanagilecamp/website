@@ -21,10 +21,7 @@ img.bg {
 }
 
 img.logo {
-  size: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 340px;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
@@ -34,10 +31,10 @@ img.logo {
   }
 }
 
-#principal {
+#principal div {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
+  max-width: 500px;
+  margin: auto;
 }
-h1 {
-  padding-bottom: 50px;
-}
+
