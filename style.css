@@ -1,12 +1,15 @@
-@media only screen and (max-width: 400px) {
-  body { font-size:90%;}
+@media only screen and (max-width: 1100px) {
+  #principal h1 { font-size: 200%;}
 }
 @media only screen and (max-width: 800px) {
-  body { font-size:90%;}
+  #principal h1 { font-size:150%;}
 }
-@media only screen and (max-width: 1100px) {
-  body { font-size:90%;}
+@media only screen and (max-width: 400px) {
+  #principal h1 {
+    font-size: 100%;
+  }
 }
+
 
 img.logo {
   width: 80%;
