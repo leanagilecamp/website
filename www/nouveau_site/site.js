@@ -6,12 +6,16 @@ $(document).ready(function () {
             var content_id = nav_id.replace('-navbar', '');
 	    afficheOnglet(content_id);
         });
+	
+	$('.brand').on('click', function() {
+	    afficheOnglet('accueil');
+	});
 
 	function afficheOnglet(id) {
             $('.content').addClass('hidden');
             $('#' + id).removeClass('hidden');
             $('ul.nav li').removeClass('active');
-            $(id + '-navbar').addClass('active');
+            $('#' + id + '-navbar').addClass('active');
 	}
 
 	$('ul.nav li:contains("Guide")').click(telechargeGuide);
