@@ -4,16 +4,42 @@ $(document).ready(function () {
 	$('ul.nav li').click(function () {
             var nav_id = $(this).attr('id');
             var content_id = nav_id.replace('-navbar', '');
-
-            $('.content').addClass('hidden');
-            $('#' + content_id).removeClass('hidden');
-            $('ul.nav li').removeClass('active');
-            $(this).addClass('active');
+	    afficheOnglet(content_id);
         });
 
-	$('ul.nav li:contains("Guide")').click(function () {
-	    $.get('guide.html', function(data) {
-	        $('#leguide').append(data);
-	    });
+	function afficheOnglet(id) {
+            $('.content').addClass('hidden');
+            $('#' + id).removeClass('hidden');
+            $('ul.nav li').removeClass('active');
+            $(id + '-navbar').addClass('active');
+	}
+
+	$('ul.nav li:contains("Guide")').click(telechargeGuide);
+
+	function telechargeGuide() {
+	    if ($("#conclusion").length == 0) {
+	        $.get('guide.html', function(data) {
+	            $('#leguide').append(data);
+	        });
+	    }
+	}
+
+	$('.pdfButton').on('click', function () {
+	    trackOutboundLink(this, 'inbound download', 'download pdf'); 
+	    return false;
+	});
+	$('.epubButton').on('click', function () {
+	    trackOutboundLink(this, 'inbound download', 'download epub'); 
+	    return false;
+	});
+	$('.azw3Button').on('click', function () {
+	    trackOutboundLink(this, 'inbound download', 'download azw3'); 
+	    return false;
+	});
+	$('.htmlButton').on('click', function () {
+	    trackOutboundLink(this, 'inbound html'); 
+	    telechargeGuide();
+	    afficheOnglet('leguide'); 
+	    return false;
 	});
 });
