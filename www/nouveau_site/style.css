@@ -27,3 +27,10 @@ img.logo {
   margin: auto;
 }
 
+#collectif div {
+  display: block;
+}
+#TOC div {
+  padding-top: 5em;
+  display: block;
+}
