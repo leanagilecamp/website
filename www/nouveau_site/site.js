@@ -36,7 +36,7 @@ $(document).ready(function () {
 	    trackOutboundLink(this, 'inbound download', 'download epub'); 
 	    return false;
 	});
-	$('.azw3Button').on('click', function () {
+	$('.kindleButton').on('click', function () {
 	    trackOutboundLink(this, 'inbound download', 'download azw3'); 
 	    return false;
 	});
