@@ -27,10 +27,9 @@ img.logo {
   margin: auto;
 }
 
-#collectif div {
-  display: block;
+.bs-docs-sidenav.affix {
+  top: 80px;
 }
+
 #TOC div {
-  padding-top: 5em;
-  display: block;
 }
