@@ -30,10 +30,7 @@ $(document).ready(function () {
     }
 
     function setActiveTocItem() {
-        $('#toc-guide').find('li').on('click', function () {
-            $('#toc-guide').find('li').removeClass('active');
-            $(this).addClass('active');
-        });
+        $('body').scrollspy({ target: '#toc-guide-container', offset: 80 });
     }
 
     $('.pdfButton').on('click', function () {
