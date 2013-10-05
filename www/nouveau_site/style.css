@@ -27,6 +27,10 @@ body {
     padding-top: 60px;
 }
 
+.btn-group {
+    padding-bottom: 15px;
+}
+
 .bs-sidebar.affix {
   position: static;
 }
