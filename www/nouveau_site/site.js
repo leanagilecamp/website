@@ -15,25 +15,25 @@ $(document).ready(function () {
     function afficheOnglet(id) {
         $.get(id + '.html', function(data) {
             $('#page').html(data);
+            if (id === "guide") {
+                initScrollSpy();
+            }
         });
         $('ul.nav li').removeClass('active');
         $('#' + id + '-navbar').addClass('active');
     }
 
-    $('ul.nav li:contains("Guide")').click(telechargeGuide);
-
-    function telechargeGuide() {
-        if ($("#conclusion").length == 0) {
-            $.get('guide.html', function (data) {
-                $('#leguide').append(data);
-                setActiveTocItem();
-            });
-        }
+    function initScrollSpy() {
+        var offset = 70;
+        $('body').scrollspy({ target: '#toc-guide-container', offset: offset });
+        $('.bs-sidenav li a').click(function(event) {
+            event.preventDefault();
+            $($(this).attr('href'))[0].scrollIntoView();
+            scrollBy(0, - offset);
+        });
     }
 
-    function setActiveTocItem() {
-        $('body').scrollspy({ target: '#toc-guide-container', offset: 80 });
-    }
+
 
     $('.pdfButton').on('click', function () {
         trackOutboundLink(this, 'inbound download', 'download pdf');
