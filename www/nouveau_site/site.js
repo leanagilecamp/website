@@ -1,6 +1,6 @@
 $(document).ready(function () {
     afficheOnglet('accueil');
-    $('.pour_nous_contacter').append(String.fromCharCode(99, 111, 110, 116, 97, 99, 116, 64, 108, 101, 97, 110, 97, 103, 105, 108, 101, 99, 97, 109, 112, 46, 102, 114));
+
 
     $('ul.nav li').click(function () {
         var nav_id = $(this).attr('id');
@@ -18,6 +18,7 @@ $(document).ready(function () {
             if (id === "guide") {
                 initScrollSpy();
             }
+            pourNousContacter();
         });
         $('ul.nav li').removeClass('active');
         $('#' + id + '-navbar').addClass('active');
@@ -33,7 +34,9 @@ $(document).ready(function () {
         });
     }
 
-
+    function pourNousContacter() {
+        $('.pour_nous_contacter').append(String.fromCharCode(99, 111, 110, 116, 97, 99, 116, 64, 108, 101, 97, 110, 97, 103, 105, 108, 101, 99, 97, 109, 112, 46, 102, 114));
+    }
 
     $('.pdfButton').on('click', function () {
         trackOutboundLink(this, 'inbound download', 'download pdf');
@@ -49,8 +52,7 @@ $(document).ready(function () {
     });
     $('.htmlButton').on('click', function () {
         trackOutboundLink(this, 'inbound html');
-        telechargeGuide();
-        afficheOnglet('leguide');
+        afficheOnglet('guide');
         return false;
     });
 
