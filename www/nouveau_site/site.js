@@ -12,17 +12,28 @@ $(document).ready(function () {
         afficheOnglet('accueil');
     });
 
+    $("#menu").on("affiche:accueil", function(evt) {
+        initButtonsBindings();
+        pourNousContacter();
+    });
+
+    $("#menu").on("affiche:guide", function(evt) {
+        initButtonsBindings();
+        initScrollSpy();
+    });
+
+    $("#menu").on("affiche:evenements", function(evt) {
+        pourNousContacter();
+    });
+
     function afficheOnglet(id) {
         $.get(id + '.html', function(data) {
             $('#page').html(data);
-            if (id === "guide") {
-                initScrollSpy();
-            }
-            initButtonsBindings();
-            pourNousContacter();
+            $("#menu").trigger("affiche:" + id);
+
+            $('ul.nav li').removeClass('active');
+            $('#' + id + '-navbar').addClass('active');
         });
-        $('ul.nav li').removeClass('active');
-        $('#' + id + '-navbar').addClass('active');
     }
 
     function initScrollSpy() {
