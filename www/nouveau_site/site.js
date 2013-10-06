@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $('.pour_nous_contacter').append(String.fromCharCode(99, 111, 110, 116, 97, 99, 116, 64, 108, 101, 97, 110, 97, 103, 105, 108, 101, 99, 97, 109, 112, 46, 102, 114));
+    afficheOnglet('accueil');
+
 
     $('ul.nav li').click(function () {
         var nav_id = $(this).attr('id');
@@ -12,28 +13,29 @@ $(document).ready(function () {
     });
 
     function afficheOnglet(id) {
-        $('.content').addClass('hidden');
-        $('#' + id).removeClass('hidden');
+        $.get(id + '.html', function(data) {
+            $('#page').html(data);
+            if (id === "guide") {
+                initScrollSpy();
+            }
+            pourNousContacter();
+        });
         $('ul.nav li').removeClass('active');
         $('#' + id + '-navbar').addClass('active');
     }
 
-    $('ul.nav li:contains("Guide")').click(telechargeGuide);
-
-    function telechargeGuide() {
-        if ($("#conclusion").length == 0) {
-            $.get('guide.html', function (data) {
-                $('#leguide').append(data);
-                setActiveTocItem();
-            });
-        }
+    function initScrollSpy() {
+        var offset = 70;
+        $('body').scrollspy({ target: '#toc-guide-container', offset: offset });
+        $('.bs-sidenav li a').click(function(event) {
+            event.preventDefault();
+            $($(this).attr('href'))[0].scrollIntoView();
+            scrollBy(0, - offset);
+        });
     }
 
-    function setActiveTocItem() {
-        $('#toc-guide').find('li').on('click', function () {
-            $('#toc-guide').find('li').removeClass('active');
-            $(this).addClass('active');
-        });
+    function pourNousContacter() {
+        $('.pour_nous_contacter').append(String.fromCharCode(99, 111, 110, 116, 97, 99, 116, 64, 108, 101, 97, 110, 97, 103, 105, 108, 101, 99, 97, 109, 112, 46, 102, 114));
     }
 
     $('.pdfButton').on('click', function () {
@@ -50,8 +52,7 @@ $(document).ready(function () {
     });
     $('.htmlButton').on('click', function () {
         trackOutboundLink(this, 'inbound html');
-        telechargeGuide();
-        afficheOnglet('leguide');
+        afficheOnglet('guide');
         return false;
     });
 

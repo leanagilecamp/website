@@ -10,6 +10,10 @@
   }
 }
 
+#couverture {
+    box-shadow: 5px 5px 5px #888888;
+}
+
 img.logo {
   width: 50%;
   padding-bottom: 3em;
@@ -25,6 +29,10 @@ img.logo {
 
 body {
     padding-top: 60px;
+}
+
+.btn-group {
+    padding-bottom: 15px;
 }
 
 .bs-sidebar.affix {
