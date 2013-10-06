@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#menu").on("affiche:guide", function(evt) {
         initButtonsBindings();
         initScrollSpy();
-        $('img').on('load', function() {refreshScrollSpy()});
+        $('img').on('load', refreshScrollSpy);
     });
 
     $("#menu").on("affiche:evenements", function(evt) {
