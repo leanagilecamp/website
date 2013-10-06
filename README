@@ -1,1 +1,8 @@
+To view a site:
+1/ Go to the directory containing index.html (In october 2013: www/ or www/nouveau_site/)
+2/ Lauch an http server. The simplest way is to use the python standard distribution:
 python -m SimpleHTTPServer
+3/ Open http://localhost:8000 in a browser
+
+To push:
+git remote set-url origin ssh://git@github.com/leanagilecamp/website.git
