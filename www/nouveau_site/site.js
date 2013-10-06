@@ -22,14 +22,8 @@ $(document).ready(function () {
         pourNousContacter();
     });
 
-    function refreshScrollSpy() {
-        console.log("refresh scroll spy");
-        $('body').scrollspy('refresh');
-    }
-
     function afficheOnglet(id) {
-        $.get(id + '.html', function(data) {
-            $('#page').html(data);
+        $('#page').load(id + '.html', function(data) {
             $("#menu").trigger("affiche:" + id);
 
             $('ul.nav li').removeClass('active');
@@ -45,6 +39,10 @@ $(document).ready(function () {
             $($(this).attr('href'))[0].scrollIntoView();
             scrollBy(0, - offset);
         });
+    }
+
+    function refreshScrollSpy() {
+        $('body').scrollspy('refresh');
     }
 
     function pourNousContacter() {
