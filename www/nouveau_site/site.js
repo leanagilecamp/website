@@ -1,15 +1,10 @@
 $(document).ready(function () {
     afficheOnglet('accueil');
 
-
     $('ul.nav li').click(function () {
         var nav_id = $(this).attr('id');
         var content_id = nav_id.replace('-navbar', '');
         afficheOnglet(content_id);
-    });
-
-    $('.navbar-brand').on('click', function () {
-        afficheOnglet('accueil');
     });
 
     $("#menu").on("affiche:accueil", function(evt) {
@@ -69,5 +64,4 @@ $(document).ready(function () {
             return false;
         });
     }
-
 });
