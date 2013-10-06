@@ -15,11 +15,17 @@ $(document).ready(function () {
     $("#menu").on("affiche:guide", function(evt) {
         initButtonsBindings();
         initScrollSpy();
+        $('img').on('load', function() {refreshScrollSpy()});
     });
 
     $("#menu").on("affiche:evenements", function(evt) {
         pourNousContacter();
     });
+
+    function refreshScrollSpy() {
+        console.log("refresh scroll spy");
+        $('body').scrollspy('refresh');
+    }
 
     function afficheOnglet(id) {
         $.get(id + '.html', function(data) {
