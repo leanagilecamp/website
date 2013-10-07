@@ -1,3 +1,5 @@
+/*------ All pages ------*/
+
 @media only screen and (max-width: 1100px) {
   .content h1 { font-size: 200%;}
 }
@@ -9,12 +11,36 @@
     font-size: 100%;
   }
 }
-
-#couverture {
-    box-shadow: 5px 5px 5px #888888;
+@media screen and (min-width: 900px) {
+  #accueil,  #evenements {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.content {
+  padding-top: 30px;
 }
 
-img.logo {
+body {
+    padding-top: 60px;
+}
+
+.btn-group {
+    padding-bottom: 15px;
+}
+
+/*------ Home page ------*/
+
+#accueil #couverture {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#accueil #presentation {
+  margin-top: 20px;
+}
+
+#accueil img.logo {
   width: 50%;
   padding-bottom: 3em;
 }
@@ -27,13 +53,55 @@ img.logo {
   margin: auto;
 }
 
-body {
-    padding-top: 60px;
+#accueil #access-guide a {
+  font-size: 150%;
 }
 
-.btn-group {
-    padding-bottom: 15px;
+#accueil .pour_nous_contacter {
+  color: #888;
 }
+
+/*------ Guide page ------*/
+
+#collectif th {
+  border-bottom: 1px solid #BBB;
+}
+
+#contenu_du_guide h1 {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  padding-top:3px;
+  padding-bottom: 3px;
+}
+
+#contenu_du_guide blockquote p {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.figure {
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+.figure img {
+  max-width: 700px;
+}
+
+.figure .caption {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/*------ Events page ------*/
+
+#evenements .pour_nous_contacter {
+  font-size: 150%;
+}
+
+/*------ Navigation bar ------*/
 
 .bs-sidebar.affix {
   position: static;
