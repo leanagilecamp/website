@@ -65,6 +65,10 @@ $(document).ready(function () {
             trackOutboundLink(this, 'inbound download', 'download azw3');
             return false;
         });
+        $('.paperButton').on('click', function () {
+            trackOutboundLink(this, 'outbound download', 'Paper: go to lulu');
+            return false;
+        });
         $('.htmlButton').on('click', function () {
             trackOutboundLink(this, 'inbound html');
             afficheOnglet('guide');
