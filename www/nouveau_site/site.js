@@ -5,6 +5,7 @@ $(document).ready(function () {
         var nav_id = $(this).attr('id');
         var content_id = nav_id.replace('-navbar', '');
         afficheOnglet(content_id);
+        trackInboundLink('inbound html', 'main menu', content_id);
     });
 
     $("#menu").on("affiche:accueil", function(evt) {
@@ -70,7 +71,7 @@ $(document).ready(function () {
             return false;
         });
         $('.htmlButton').on('click', function () {
-            trackOutboundLink(this, 'inbound html');
+            trackInboundLink(this, 'inbound html', 'download html');
             afficheOnglet('guide');
             return false;
         });
