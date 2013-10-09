@@ -71,7 +71,7 @@ $(document).ready(function () {
             return false;
         });
         $('.htmlButton').on('click', function () {
-            trackInboundLink(this, 'inbound html', 'download html');
+            trackInboundLink('inbound html', 'download html', 'html: go to guide');
             afficheOnglet('guide');
             return false;
         });
