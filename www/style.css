@@ -1,17 +1,47 @@
+/*------ All pages ------*/
+
 @media only screen and (max-width: 1100px) {
-  #principal h1 { font-size: 200%;}
+  .content h1 { font-size: 200%;}
 }
 @media only screen and (max-width: 800px) {
-  #principal h1 { font-size:150%;}
+  .content h1 { font-size:150%;}
 }
 @media only screen and (max-width: 400px) {
-  #principal h1 {
+  .content h1 {
     font-size: 100%;
   }
 }
+@media screen and (min-width: 900px) {
+  #accueil,  #evenements {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.content {
+  padding-top: 30px;
+}
 
-img.logo {
-  width: 80%;
+body {
+    padding-top: 60px;
+}
+
+.btn-group {
+    padding-bottom: 15px;
+}
+
+/*------ Home page ------*/
+
+#accueil #couverture {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#accueil #presentation {
+  margin-top: 20px;
+}
+
+#accueil img.logo {
+  width: 50%;
   padding-bottom: 3em;
 }
 
@@ -23,3 +53,130 @@ img.logo {
   margin: auto;
 }
 
+#accueil #access-guide a {
+  font-size: 150%;
+}
+
+#accueil .pour_nous_contacter {
+  color: #888;
+}
+
+/*------ Guide page ------*/
+
+#collectif th {
+  border-bottom: 1px solid #BBB;
+}
+
+#contenu_du_guide h1 {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  padding-top:3px;
+  padding-bottom: 3px;
+}
+
+#contenu_du_guide blockquote p {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.figure {
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+.figure img {
+  max-width: 700px;
+}
+
+.figure .caption {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/*------ Events page ------*/
+
+#evenements .pour_nous_contacter {
+  font-size: 150%;
+}
+
+/*------ Navigation bar ------*/
+
+.bs-sidebar.affix {
+  position: static;
+}
+
+/* First level of nav */
+.bs-sidenav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f7f5fa;
+  border-radius: 5px;
+}
+
+/* All levels of nav */
+.bs-sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+  padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+}
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: rgb(42, 100, 150);
+  background-color: transparent;
+  border-right: 1px solid rgb(42, 100, 150);
+}
+
+/* Nav: second level (shown on .active) */
+.bs-sidebar .nav .nav {
+  display: none; /* Hide by default, but at >768px, show it */
+  margin-bottom: 8px;
+}
+.bs-sidebar .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  .bs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .bs-sidebar.affix,
+  .bs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 80px;
+  }
+  .bs-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .bs-sidebar.affix-bottom .bs-sidenav,
+  .bs-sidebar.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .bs-sidebar.affix-bottom,
+  .bs-sidebar.affix {
+    width: 330px;
+  }
+}
