@@ -16,6 +16,9 @@ $(document).ready(function () {
         initButtonsBindings();
         initScrollSpy();
         $('img').on('load', refreshScrollSpy);
+        $('.bs-sidebar li a').on('click', function(event) {
+           trackInboundLink('inbound html', 'guide menu', this.href.split('#')[1]);
+        });
     });
 
     $("#menu").on("affiche:evenements", function(evt) {
