@@ -7,4 +7,8 @@ python -m SimpleHTTPServer
 To push:
 git remote set-url origin ssh://git@github.com/leanagilecamp/website.git
 
+To deploy:
 lftp ftp.leanagilecamp.fr
+
+To fetch the repository:
+git clone https://github.com/leanagilecamp/website.git
