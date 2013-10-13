@@ -150,6 +150,13 @@ body {
   font-size: 90%;
 }
 
+.book-title {
+  color: rgb(0, 0, 0);
+}
+#book-cover {
+  text-decoration:none;
+}
+
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 992px) {
   .bs-sidebar .nav > .active > ul {
