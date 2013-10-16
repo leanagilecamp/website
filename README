@@ -12,3 +12,9 @@ lftp ftp.leanagilecamp.fr
 
 To fetch the repository:
 git clone https://github.com/leanagilecamp/website.git
+
+SEO:
+http://webmasters.stackexchange.com/questions/47085/is-there-an-xml-sitemap-generator-with-command-line-interface-for-nginx-on-linux/47105#47105
+
+TODO:
+access to http://localhost:8000/www/leguide#de-management-visuel-%C3%A0-visualiser-le-challenge-et-les-probl%C3%A8mes
