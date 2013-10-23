@@ -1,5 +1,15 @@
+
 $(document).ready(function () {
-    afficheOnglet('accueil');
+    var s = document.URL;
+    var cheminAvantEtApresAncre = s.split('#');
+    if (cheminAvantEtApresAncre.length <= 1) {
+        afficheOnglet('accueil');
+    } else {
+        var chemin = cheminAvantEtApresAncre[1];
+        var onglet = chemin.split('/')[1];
+        afficheOnglet(onglet);
+
+    }
 
     $('ul.nav li').click(function () {
         var nav_id = $(this).attr('id');
