@@ -1,14 +1,14 @@
 
 $(document).ready(function () {
-    var s = document.URL;
-    var cheminAvantEtApresAncre = s.split('#');
+    var cheminAvantEtApresAncre = document.URL.split('#');
     if (cheminAvantEtApresAncre.length <= 1) {
         afficheOnglet('accueil');
     } else {
         var chemin = cheminAvantEtApresAncre[1];
-        var onglet = chemin.split('/')[1];
-        afficheOnglet(onglet);
-
+        var ongletEtAncre = chemin.split('/');
+        var onglet = ongletEtAncre[1];
+        var ancre = ongletEtAncre[2];
+        afficheOnglet(onglet, ancre);
     }
 
     $('ul.nav li').click(function () {
@@ -23,22 +23,25 @@ $(document).ready(function () {
         pourNousContacter();
     });
 
-    $("#menu").on("affiche:guide", function(evt) {
+    $("#menu").on("affiche:guide", function(evt, ancre) {
         initButtonsBindings();
         initScrollSpy();
         $('img').on('load', refreshScrollSpy);
         $('.bs-sidebar li a').on('click', function(event) {
            trackInboundLink('inbound html', 'guide menu', this.href.split('#')[1]);
         });
+        if (typeof ancre !== 'undefined') {
+            $('a[href$="'+ ancre + '"]').click();
+        }
     });
 
     $("#menu").on("affiche:evenements", function(evt) {
         pourNousContacter();
     });
 
-    function afficheOnglet(id) {
+    function afficheOnglet(id, ancre) {
         $('#page').load(id + '.html', function(data) {
-            $("#menu").trigger("affiche:" + id);
+            $("#menu").trigger("affiche:" + id, ancre);
 
             $('ul.nav li').removeClass('active');
             $('#' + id + '-navbar').addClass('active');
