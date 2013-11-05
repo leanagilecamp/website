@@ -15,3 +15,9 @@ function trackOutboundLink(link, category, action) {
     document.location.href = link.href;
   }, 100);
 }
+
+function trackInboundLink(category, action, label) {
+  try {
+    ga('send', 'event', category, action, label);
+  } catch(err){}
+}
