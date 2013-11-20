@@ -1,14 +1,21 @@
 
 $(document).ready(function () {
-    var cheminAvantEtApresAncre = document.URL.split('#');
-    if (cheminAvantEtApresAncre.length <= 1) {
-        afficheOnglet('accueil');
-    } else {
-        var chemin = cheminAvantEtApresAncre[1];
-        var ongletEtAncre = chemin.split('/');
-        var onglet = ongletEtAncre[1];
-        var ancre = ongletEtAncre[2];
-        afficheOnglet(onglet, ancre);
+    var url = document.URL;
+    if (url.indexOf('#') !== -1) {
+        afficheOngletAuChargement(url);
+    }
+
+    function afficheOngletAuChargement(url) {
+        var cheminAvantEtApresAncre = url.split('#');
+        if (cheminAvantEtApresAncre.length <= 1) {
+            afficheOnglet('accueil');
+        } else {
+            var chemin = cheminAvantEtApresAncre[1];
+            var ongletEtAncre = chemin.split('/');
+            var onglet = ongletEtAncre[1];
+            var ancre = ongletEtAncre[2];
+            afficheOnglet(onglet, ancre);
+        }
     }
 
     $('ul.nav li').click(function () {

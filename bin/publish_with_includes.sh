@@ -1,4 +1,12 @@
 #!/bin/sh
-
-cat /home/bthomas/src/website/www/index.html | awk -v v="$var" -F '<!--#include page="accueil.html" -->' 'BEGIN {RS="</html>\n"} {print $1, v $2}'
-
+mkdir -p output
+rsync -a www output/
+for include in output/www/*_include.html 
+do
+	fichier_html=`echo $include |sed -e 's/_include//'`
+	echo $fichier_html
+	cat /home/bthomas/src/website/www/index.html | awk  -F '<!--#include page -->' 'BEGIN {RS="</html>\n"} {print $1}'  > $fichier_html
+    cat $include >> $fichier_html
+	cat /home/bthomas/src/website/www/index.html | awk  -F '<!--#include page -->' 'BEGIN {RS="</html>\n"} {print $2"</html>"}'  >> $fichier_html
+done
+mv output/www/accueil.html output/www/index.html
