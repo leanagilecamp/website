@@ -3,6 +3,10 @@ $(document).ready(function () {
     var url = document.URL;
     if (url.indexOf('#') !== -1) {
         afficheOngletAuChargement(url);
+    } else {
+        var tableauChemin = url.split('/');
+        var id = tableauChemin[tableauChemin.length-1].replace('.html', '');
+        $("#menu").trigger("affiche:" + id);
     }
 
     function afficheOngletAuChargement(url) {
@@ -46,12 +50,16 @@ $(document).ready(function () {
         pourNousContacter();
     });
 
+    function activeOnglet(id) {
+        $('ul.nav li').removeClass('active');
+        $('#' + id + '-navbar').addClass('active');
+    }
+
     function afficheOnglet(id, ancre) {
         $('#page').load(id + '_include.html', function(data) {
             $("#menu").trigger("affiche:" + id, ancre);
 
-            $('ul.nav li').removeClass('active');
-            $('#' + id + '-navbar').addClass('active');
+            activeOnglet(id);
         });
     }
 
