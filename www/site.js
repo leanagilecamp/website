@@ -40,7 +40,7 @@ $(document).ready(function () {
     });
 
     function afficheOnglet(id, ancre) {
-        $('#page').load(id + '.html', function(data) {
+        $('#page').load(id + '_include.html', function(data) {
             $("#menu").trigger("affiche:" + id, ancre);
 
             $('ul.nav li').removeClass('active');
