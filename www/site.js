@@ -1,12 +1,43 @@
-
 $(document).ready(function () {
+
+    bindEvents();
+
     var url = document.URL;
-    if (url.indexOf('#') !== -1) {
+        if (url.indexOf('#') !== -1) {
         afficheOngletAuChargement(url);
     } else {
         var tableauChemin = url.split('/');
         var id = tableauChemin[tableauChemin.length-1].replace('.html', '');
         $("#menu").trigger("affiche:" + id);
+    }
+
+    function bindEvents() {
+        $('ul.nav li').click(function () {
+            var nav_id = $(this).attr('id');
+            var content_id = nav_id.replace('-navbar', '');
+            afficheOnglet(content_id);
+            trackInboundLink('inbound html', 'main menu', content_id);
+        });
+
+        $("#menu").on("affiche:accueil", function (evt) {
+            initButtonsBindings();
+            pourNousContacter();
+        });
+
+        $("#menu").on("affiche:guide", function (evt, ancre) {
+            initButtonsBindings();
+            initScrollSpy();
+            $('img').on('load', refreshScrollSpy);
+            $('.bs-sidebar li a').on('click', function (event) {
+                trackInboundLink('inbound html', 'guide menu', this.href.split('#')[1]);
+            });
+            if (typeof ancre !== 'undefined') {
+                $('a[href$="' + ancre + '"]').click();
+            }
+        });
+        $("#menu").on("affiche:evenements", function (evt) {
+            pourNousContacter();
+        });
     }
 
     function afficheOngletAuChargement(url) {
@@ -20,35 +51,7 @@ $(document).ready(function () {
             var ancre = ongletEtAncre[2];
             afficheOnglet(onglet, ancre);
         }
-    }
-
-    $('ul.nav li').click(function () {
-        var nav_id = $(this).attr('id');
-        var content_id = nav_id.replace('-navbar', '');
-        afficheOnglet(content_id);
-        trackInboundLink('inbound html', 'main menu', content_id);
-    });
-
-    $("#menu").on("affiche:accueil", function(evt) {
-        initButtonsBindings();
-        pourNousContacter();
-    });
-
-    $("#menu").on("affiche:guide", function(evt, ancre) {
-        initButtonsBindings();
-        initScrollSpy();
-        $('img').on('load', refreshScrollSpy);
-        $('.bs-sidebar li a').on('click', function(event) {
-           trackInboundLink('inbound html', 'guide menu', this.href.split('#')[1]);
-        });
-        if (typeof ancre !== 'undefined') {
-            $('a[href$="'+ ancre + '"]').click();
         }
-    });
-
-    $("#menu").on("affiche:evenements", function(evt) {
-        pourNousContacter();
-    });
 
     function activeOnglet(id) {
         $('ul.nav li').removeClass('active');
