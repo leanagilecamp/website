@@ -8,6 +8,7 @@ $(document).ready(function () {
     } else {
         var tableauChemin = url.split('/');
         var id = tableauChemin[tableauChemin.length - 1].replace('.html', '');
+        activeOnglet(id);
         $("#menu").trigger("affiche:" + id);
     }
 
