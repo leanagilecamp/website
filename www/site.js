@@ -3,11 +3,11 @@ $(document).ready(function () {
     bindEvents();
 
     var url = document.URL;
-        if (url.indexOf('#') !== -1) {
+    if (url.indexOf('#') !== -1) {
         afficheOngletAuChargement(url);
     } else {
         var tableauChemin = url.split('/');
-        var id = tableauChemin[tableauChemin.length-1].replace('.html', '');
+        var id = tableauChemin[tableauChemin.length - 1].replace('.html', '');
         $("#menu").trigger("affiche:" + id);
     }
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
             var ancre = ongletEtAncre[2];
             afficheOnglet(onglet, ancre);
         }
-        }
+    }
 
     function activeOnglet(id) {
         $('ul.nav li').removeClass('active');
@@ -59,7 +59,7 @@ $(document).ready(function () {
     }
 
     function afficheOnglet(id, ancre) {
-        $('#page').load(id + '_include.html', function(data) {
+        $('#page').load(id + '_include.html', function (data) {
             $("#menu").trigger("affiche:" + id, ancre);
 
             activeOnglet(id);
@@ -69,10 +69,10 @@ $(document).ready(function () {
     function initScrollSpy() {
         var offset = 70;
         $('body').scrollspy({ target: '#toc-guide-container', offset: offset });
-        $('.bs-sidenav li a').click(function(event) {
+        $('.bs-sidenav li a').click(function (event) {
             event.preventDefault();
             $($(this).attr('href'))[0].scrollIntoView();
-            scrollBy(0, - offset+10);
+            scrollBy(0, -offset + 10);
         });
     }
 
