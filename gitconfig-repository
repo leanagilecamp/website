@@ -1,0 +1,16 @@
+# in my_repo/.git/config 
+# example with two branches
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:leanagilecamp/website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "referencement_google"]
+	remote = origin
+	merge = refs/heads/referencement_google

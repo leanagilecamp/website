@@ -1,3 +1,4 @@
+# global config in ~/.gitconfig
 [color]
         branch = auto
         diff = auto
