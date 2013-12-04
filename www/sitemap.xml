@@ -5,811 +5,815 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://www.leanagilecamp.fr/#/accueil</loc>
+  <loc>http://www.leanagilecamp.fr/</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/evenements</loc>
+  <loc>http://www.leanagilecamp.fr/index.html</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide</loc>
+  <loc>http://www.leanagilecamp.fr/evenements.html</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/act</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/act-adjust</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#act</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/action-corrective</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#act-adjust</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/action-suivi-des-%C3%A9carts</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#action-corrective</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/agir-ensemble</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#action-suivi-des-%C3%A9carts</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/agir-ensemble-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#agir-ensemble</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/aller-plus-loin</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#agir-ensemble-1</loc>
+  <priority>0.3333</priority>
+ </url>
+ <url>
+  <loc>http://www.leanagilecamp.fr/guide.html#aller-plus-loin</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/aller-plus-loin-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#aller-plus-loin-1</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/aller-plus-loin-2</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#aller-plus-loin-2</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/aller-voir-vos-clients</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#aller-voir-vos-clients</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/allez-observer-le-client-sur-le-terrain</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#allez-observer-le-client-sur-le-terrain</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/analyse-du-probl%C3%A8me</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#analyse-du-probl%C3%A8me</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/au-plus-profond-de-la-culture-agile</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#au-plus-profond-de-la-culture-agile</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/aux-origines</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#aux-origines</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/avant-propos</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#avant-propos</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/cat%C3%A9gorisation-des-incidents</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#cat%C3%A9gorisation-des-incidents</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/check</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#check</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/check-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#check-1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/chercher-les-causes-racines</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#chercher-les-causes-racines</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/choisir-un-sujet</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#choisir-un-sujet</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/clarifiez-le-probl%C3%A8me-et-mesurez-le-succ%C3%A8s</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#clarifiez-le-probl%C3%A8me-et-mesurez-le-succ%C3%A8s</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comment-faire-en-pratique</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comment-faire-en-pratique</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comment-fatiguer-son-ing%C3%A9nieur-syst%C3%A8me</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comment-fatiguer-son-ing%C3%A9nieur-syst%C3%A8me</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comment-maximiser-la-valeur</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comment-maximiser-la-valeur</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comprendre-ensemble</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comprendre-ensemble</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comprendre-ensemble-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comprendre-ensemble-1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comprendre-la-situation</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comprendre-la-situation</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/comprendre-le-besoin-profond-du-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#comprendre-le-besoin-profond-du-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/conclusion</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#conclusion</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/consomm%C3%A9-individuel</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#consomm%C3%A9-individuel</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/contexte</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#contexte</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/contexte-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#contexte-1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/creating-a-lean-culture</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#creating-a-lean-culture</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/d%C3%A9finir-l%C3%A9cart-au-standard</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#d%C3%A9finir-l%C3%A9cart-au-standard</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/d%C3%A9finir-le-probl%C3%A8me</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#d%C3%A9finir-le-probl%C3%A8me</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/d%C3%A9finir-le-probl%C3%A8me-%C3%A0-r%C3%A9soudre-et-la-fa%C3%A7on-de-mesurer-le-succ%C3%A8s</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#d%C3%A9finir-le-probl%C3%A8me-%C3%A0-r%C3%A9soudre-et-la-fa%C3%A7on-de-mesurer-le-succ%C3%A8s</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/d%C3%A9finir-le-r%C3%A9sultat-attendu</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#d%C3%A9finir-le-r%C3%A9sultat-attendu</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/d%C3%A9sillusion</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#d%C3%A9sillusion</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/de-lam%C3%A9lioration-continue-%C3%A0-trouver-les-leviers-de-lam%C3%A9lioration</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#de-lam%C3%A9lioration-continue-%C3%A0-trouver-les-leviers-de-lam%C3%A9lioration</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/de-management-visuel-%C3%A0-visualiser-le-challenge-et-les-probl%C3%A8mes</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#de-management-visuel-%C3%A0-visualiser-le-challenge-et-les-probl%C3%A8mes</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/de-satisfaire-le-client-%C3%A0-comprendre-son-attente</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#de-satisfaire-le-client-%C3%A0-comprendre-son-attente</loc>
   <priority>1.0000</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/deuxi%C3%A8me-hypoth%C3%A8se</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#deuxi%C3%A8me-hypoth%C3%A8se</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/do</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#do</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/do-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#do-1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/du-management-visuel-au-plan-do-check-act-pdca</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#du-management-visuel-au-plan-do-check-act-pdca</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/encourager-lauto-organisation</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#encourager-lauto-organisation</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/enrichissement-du-management-visuel</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#enrichissement-du-management-visuel</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/exp%C3%A9rimenter-pour-valider-ses-pr%C3%A9f%C3%A9rences</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#exp%C3%A9rimenter-pour-valider-ses-pr%C3%A9f%C3%A9rences</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/exp%C3%A9rimentez-pour-valider-les-pr%C3%A9f%C3%A9rences-du-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#exp%C3%A9rimentez-pour-valider-les-pr%C3%A9f%C3%A9rences-du-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/favoriser-le-travail-en-%C3%A9quipe</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#favoriser-le-travail-en-%C3%A9quipe</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/flux-dactivit%C3%A9</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#flux-dactivit%C3%A9</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn10%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn10%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn11%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn11%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn12%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn12%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn13%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn13%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn14%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn14%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn15%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn15%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn16%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn16%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn17%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn17%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn18%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn18%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn19%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn19%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn2%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn2%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn20%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn20%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn21%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn21%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn22%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn22%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn23%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn23%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn24%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn24%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn25%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn25%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn26%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn26%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn27%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn27%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn3%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn3%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn4%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn4%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn5%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn5%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn6%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn6%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn7%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn7%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn8%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn8%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fn9%22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fn9%22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref10</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref10</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref11</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref11</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref12</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref12</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref13</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref13</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref14</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref14</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref15</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref15</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref16</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref16</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref17</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref17</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref18</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref18</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref19</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref19</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref2</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref2</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref20</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref20</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref21</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref21</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref22</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref22</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref23</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref23</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref24</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref24</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref25</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref25</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref26</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref26</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref27</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref27</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref3</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref3</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref4</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref4</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref5</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref5</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref6</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref6</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref7</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref7</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref8</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref8</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/fnref9</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#fnref9</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/focus-produit</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#focus-produit</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/formuler-la-m%C3%A9thode-de-check</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#formuler-la-m%C3%A9thode-de-check</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/formuler-le-probl%C3%A8me</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#formuler-le-probl%C3%A8me</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/formuler-puis-choisir-des-contre-mesures</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#formuler-puis-choisir-des-contre-mesures</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/gestion-du-timeout</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#gestion-du-timeout</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/identifier-limpact</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#identifier-limpact</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/identifier-lorigine</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#identifier-lorigine</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/inauguration-du-pont</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#inauguration-du-pont</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/it%C3%A9rations-et-approche-empirique</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#it%C3%A9rations-et-approche-empirique</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/l%C3%A9chec-des-proc%C3%A9dures-qualit%C3%A9</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#l%C3%A9chec-des-proc%C3%A9dures-qualit%C3%A9</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/l%C3%A9quipe</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#l%C3%A9quipe</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/la-communication-interpersonnelle</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#la-communication-interpersonnelle</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/la-d%C3%A9marche</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#la-d%C3%A9marche</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/la-le%C3%A7on-%C3%A0-tirer</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#la-le%C3%A7on-%C3%A0-tirer</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/la-mise-en-pratique-quotidienne</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#la-mise-en-pratique-quotidienne</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/la-pratique-du-lean-management-dans-lit</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#la-pratique-du-lean-management-dans-lit</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-bon-produit</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-bon-produit</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-bon-produitet-le-maximum-de-valeur</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-bon-produitet-le-maximum-de-valeur</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-challenge-et-la-performance</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-challenge-et-la-performance</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-contexte</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-contexte</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-lean-au-service-du-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-lean-au-service-du-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-logiciel-op%C3%A9rationnel</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-logiciel-op%C3%A9rationnel</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-management-lean</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-management-lean</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-mot-de-lassistante-merci-gosee</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-mot-de-lassistante-merci-gosee</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-mur-de-la-performance</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-mur-de-la-performance</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-processus</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-processus</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/le-service-de-prise-de-commande-ne-r%C3%A9pond-pas-dans-les-temps.</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#le-service-de-prise-de-commande-ne-r%C3%A9pond-pas-dans-les-temps.</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-5-pourquoi</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-5-pourquoi</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-domaines-privil%C3%A9gi%C3%A9s-dam%C3%A9lioration</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-domaines-privil%C3%A9gi%C3%A9s-dam%C3%A9lioration</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-objectifs</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-objectifs</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-pratiques-agiles</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-pratiques-agiles</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-pratiques-agiles-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-pratiques-agiles-1</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/les-trucs-de-geeks</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#les-trucs-de-geeks</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/linformation-affich%C3%A9e-est-exploit%C3%A9e</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#linformation-affich%C3%A9e-est-exploit%C3%A9e</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/linspiration-du-manifeste</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#linspiration-du-manifeste</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/livres-de-r%C3%A9f%C3%A9rence</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#livres-de-r%C3%A9f%C3%A9rence</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/lodeur-du-napalm-au-petit-matin</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#lodeur-du-napalm-au-petit-matin</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/lorganisation-du-travail</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#lorganisation-du-travail</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/managing-to-learn</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#managing-to-learn</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/nous-d%C3%A9couvrons-comment-mieux-d%C3%A9velopper-des-logiciels-par-la-pratique</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#nous-d%C3%A9couvrons-comment-mieux-d%C3%A9velopper-des-logiciels-par-la-pratique</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/observation-chez-le-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#observation-chez-le-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/observation-sur-le-terrain</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#observation-sur-le-terrain</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/plan</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#plan</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/plan-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#plan-1</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/point-d%C3%A9tape</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#point-d%C3%A9tape</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/pr%C3%A9venir-plut%C3%B4t-que-gu%C3%A9rir</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#pr%C3%A9venir-plut%C3%B4t-que-gu%C3%A9rir</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/pratiques-agiles</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#pratiques-agiles</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/premi%C3%A8re-hypoth%C3%A8se</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#premi%C3%A8re-hypoth%C3%A8se</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/premiers-pas</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#premiers-pas</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/premiers-pas-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#premiers-pas-1</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/premiers-pas-2</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#premiers-pas-2</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/prendre-tr%C3%A8s-au-s%C3%A9rieux-chaque-r%C3%A9clamation-client</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#prendre-tr%C3%A8s-au-s%C3%A9rieux-chaque-r%C3%A9clamation-client</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/principes-lean</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#principes-lean</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/principes-lean-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#principes-lean-1</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/principes-lean-2</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#principes-lean-2</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/qualifier-limpact</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#qualifier-limpact</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/quelques-exemples</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#quelques-exemples</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/quest-ce-que-le-management-visuel-lean-apporte-%C3%A0-une-%C3%A9quipe-agile</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#quest-ce-que-le-management-visuel-lean-apporte-%C3%A0-une-%C3%A9quipe-agile</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/quest-ce-que-le-plan-do-check-act-apporte-%C3%A0-une-%C3%A9quipe-agile</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#quest-ce-que-le-plan-do-check-act-apporte-%C3%A0-une-%C3%A9quipe-agile</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/r%C3%A9sultats</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#r%C3%A9sultats</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/r%C3%A9v%C3%A9ler-les-probl%C3%A8mes</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#r%C3%A9v%C3%A9ler-les-probl%C3%A8mes</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/recherche-de-cause</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#recherche-de-cause</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/regardez-les-r%C3%A9clamations</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#regardez-les-r%C3%A9clamations</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/ressources-de-r%C3%A9f%C3%A9rence</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#ressources-de-r%C3%A9f%C3%A9rence</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-apparition-myst%C3%A9rieuse-au-cabinet-dentaire</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-apparition-myst%C3%A9rieuse-au-cabinet-dentaire</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-du-rififi-dans-mes-sprints</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-du-rififi-dans-mes-sprints</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-joue-la-courte-et-pr%C3%A9cise</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-joue-la-courte-et-pr%C3%A9cise</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-la-cat%C3%A9gorie-myst%C3%A8re-du-projet-condor</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-la-cat%C3%A9gorie-myst%C3%A8re-du-projet-condor</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-la-mise-en-production-qui-ne-devait-pas-%C3%A9chouer</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-la-mise-en-production-qui-ne-devait-pas-%C3%A9chouer</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-le-burdown-%C3%A9tait-rouge</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-le-burdown-%C3%A9tait-rouge</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-tous-coupables</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-tous-coupables</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-trouvez-lindic</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-trouvez-lindic</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sc%C3%A8ne-de-crime-vie-et-mort-dune-id%C3%A9e-g%C3%A9niale</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sc%C3%A8ne-de-crime-vie-et-mort-dune-id%C3%A9e-g%C3%A9niale</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/se-faire-sa-propre-opinion-en-allant-observer-le-client-sur-le-terrain</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#se-faire-sa-propre-opinion-en-allant-observer-le-client-sur-le-terrain</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/sp%C3%A9cifier-en-favorisant-la-communication</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#sp%C3%A9cifier-en-favorisant-la-communication</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/structure-du-livre</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#structure-du-livre</loc>
   <priority>0.6667</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/suite-de-lhistoire</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#suite-de-lhistoire</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/suivi-des-probl%C3%A8mes</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#suivi-des-probl%C3%A8mes</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/the-visual-factory</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#the-visual-factory</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/toyota-kata</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#toyota-kata</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/troisi%C3%A8me-exp%C3%A9rimentation</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#troisi%C3%A8me-exp%C3%A9rimentation</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/trouver-des-leviers-sur-mesure</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#trouver-des-leviers-sur-mesure</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/trouver-les-causes-racines</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#trouver-les-causes-racines</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/understanding-a3-thinking</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#understanding-a3-thinking</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/une-id%C3%A9e-g%C3%A9niale</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#une-id%C3%A9e-g%C3%A9niale</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/une-pratique-efficace-et-%C3%A9volutive</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#une-pratique-efficace-et-%C3%A9volutive</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/une-pratique-quotidienne</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#une-pratique-quotidienne</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/une-situation-client-dramatique</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#une-situation-client-dramatique</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/v%C3%A9rification-de-lobservation</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#v%C3%A9rification-de-lobservation</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/v%C3%A9rifier-les-hypoth%C3%A8ses</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#v%C3%A9rifier-les-hypoth%C3%A8ses</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/valeur-et-gaspillages</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#valeur-et-gaspillages</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/visualiser-le-challenge</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#visualiser-le-challenge</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/voir-ensemble</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#voir-ensemble</loc>
   <priority>0.3333</priority>
  </url>
  <url>
-  <loc>http://www.leanagilecamp.fr/#/guide/voir-ensemble-1</loc>
+  <loc>http://www.leanagilecamp.fr/guide.html#voir-ensemble-1</loc>
   <priority>0.3333</priority>
  </url>
 </urlset>
