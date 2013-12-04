@@ -34,7 +34,7 @@ $(document).ready(function () {
 
         function afficheOngletAuChargement() {
             var url = document.URL;
-            if (url.indexOf('#') === -1) {
+            if (url.indexOf('#/') === -1) {
                 afficheOngletApresGetHttp(url);
             } else {
                 var cheminAvantEtApresAncre = url.split('#');
@@ -56,7 +56,8 @@ $(document).ready(function () {
         }
 
         function afficheOngletApresGetHttp(url) {
-            var tableauChemin = url.split('/');
+            var urlSansAncre = url.split('#')[0];
+            var tableauChemin = urlSansAncre.split('/');
             var id = tableauChemin[tableauChemin.length - 1].replace('.html', '');
             $("#menu").trigger("affiche:" + id);
             activeOnglet(id);
