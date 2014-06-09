@@ -1,17 +1,17 @@
+To fetch the source:
+git clone https://github.com/leanagilecamp/website.git
+
 To view the site:
 1/ Go to the directory containing index.html (In october 2013: www/ or www/nouveau_site/)
 2/ Lauch an http server. The simplest way is to use the python standard distribution:
 python -m SimpleHTTPServer
-3/ Open http://localhost:8000 in a browser
+3/ In a browser open http://localhost:8000
 
 To push:
 git remote set-url origin ssh://git@github.com/leanagilecamp/website.git
 
 To deploy:
 lftp ftp.leanagilecamp.fr
-
-To fetch the repository:
-git clone https://github.com/leanagilecamp/website.git
 
 SEO:
 http://webmasters.stackexchange.com/questions/47085/is-there-an-xml-sitemap-generator-with-command-line-interface-for-nginx-on-linux/47105#47105
